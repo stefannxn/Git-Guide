@@ -28,7 +28,7 @@ view &rarr; show &rarr; hidden items &rarr; find .git
 ```c
 git status
 git add file.name
-
+```
 ### untrack file
 ```c
 git rm --cached file.name
