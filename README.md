@@ -130,4 +130,4 @@ use `git push --all` to push branches
 ```c
 git pull
 ```
-reference: [https://www.youtube.com/watch?v=tRZGeaHPoaw]
+Reference: [https://www.youtube.com/watch?v=tRZGeaHPoaw]
