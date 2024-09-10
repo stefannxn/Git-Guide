@@ -1,53 +1,53 @@
 # Git-Guide
 
-### initialize git bash
+### Initialize Git Bash
 ```c
 git config --global user.name "Stefan Chen"
 git config --global user.email grape25353@gmail.com
 git config --global init.default branch main
 ```
-### check
+### Check
 ```c
 git config -h
 ```
-### more detail
+### More Detail
 ```c
 git help config
 ```
-### refresh
+### Refresh
 ```
 clear
 ```
-### initialize repository
+### Initialize Repository
 ```c
 cd file.link
 git init
 ```
 view &rarr; show &rarr; hidden items &rarr; find .git
-### track file
+### Track File
 ```c
 git status
 git add file.name
 ```
-### untrack file
+### Untrack File
 ```c
 git rm --cached file.name
 ```
-### ignore files
+### Ignore File
 1. create a new word document ".gitignore" in the file
 2. open it in Notepad
 `# ignore all .txt files`
 `*.txt`
 3. file &rarr; save
-### track all files
+### Track All Files
 ```c
 git add --all
 ```
-### commit
+### Commit
 ```c
 git commit -m "commit.name"
 ```
-### change files and view differences
+### Change Files and View Differences
 1. use Notepad for editing
 2. save file
 3. 
@@ -58,24 +58,24 @@ git status
 ```c
 git add file.name
 ```
-### not include file in commit
+### Not Include File in Commit
 ```c
 git restore --staged file.name
 ```
-### bypass staging and commit
+### Bypass Staging and Commit
 ```c
 git commit -a -m "commit.name"
 ```
-### remove and restore
+### Remove and Restore
 ```c
 git rm "file.name"
 git restore "file.name"
 ```
-### rename 
+### Rename 
 ```c
 git mv "old.file.name" "new.file.name"
 ```
-### commit history
+### Commit History
 ```c
 git log
 ```
@@ -83,11 +83,11 @@ or
 ```c
 git log --oneline
 ```
-### amend commit
+### Amend Commit
 ```c
 git commit -m "commit.name" --amend
 ```
-### view changes in commits
+### View Changes in Commits
 ```c
 git log -p
 ```
@@ -95,15 +95,15 @@ or
 ```c
 git help log
 ```
-### reset to previous commit
+### Reset to Previous Commit
 ```c
 git reset commit.number
 ```
-### rebase git repository
+### Rebase Git Repository
 ```c
 git rebase -i --root
 ```
-### create and commit branch 
+### Create and Commit Branch 
 ```c
 git branch branch.name
 git switch branch.name
@@ -114,19 +114,19 @@ and use `git branch` to check
 git commit -a -m "commit.name"
 git switch main
 ```
-### merge changes
+### Merge Changes
 ```c
 git merge -m "merge.name" branch.name
 ```
-### delete branch
+### Delete Branch
 ```c
 git branch -d branch.name
 ```
-### push to github
+### Push to GitHub
 copy instructions 
 use `git push --all` to push branches
 
-### pull (fetch + merge)
+### Pull (Fetch + Merge)
 ```c
 git pull
 ```
